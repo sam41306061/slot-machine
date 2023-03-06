@@ -1,0 +1,114 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/sam4130/Documents/Blockchain/slot-machine/src/backend/contracts/Randomizer.sol": {
+      "lastModificationDate": 1678060709103,
+      "contentHash": "91bc89fe42e60c9c391f446e1f39bd97",
+      "sourceName": "src/backend/contracts/Randomizer.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "Randomizer"
+      ]
+    },
+    "/Users/sam4130/Documents/Blockchain/slot-machine/src/backend/contracts/Slotmachine.sol": {
+      "lastModificationDate": 1678060149460,
+      "contentHash": "89a328e0cc594afd4f457a21cafeac5d",
+      "sourceName": "src/backend/contracts/Slotmachine.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "SlotMachine"
+      ]
+    },
+    "/Users/sam4130/Documents/Blockchain/slot-machine/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1678059441799,
+      "contentHash": "4ff3cd2f6272c9a6516e9ee4f2b967d3",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">= 0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    }
+  }
+}
